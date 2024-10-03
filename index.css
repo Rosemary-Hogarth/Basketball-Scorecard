@@ -10,8 +10,9 @@ background-color: #f0eeea;
   justify-content: space-around;
   padding: 50px 0;
   border: 1px solid white;
-  margin: 70px;
+  margin: 30px auto;
   background-color: #1B244A;
+  max-width: 50%;
 }
 
 .column {
@@ -81,4 +82,10 @@ li {
   display: block;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    min-width: 100%;
+  }
 }
